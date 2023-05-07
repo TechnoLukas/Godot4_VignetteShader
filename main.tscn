@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://wqkyxqhx2428"]
+
+[ext_resource type="Shader" path="res://vignette.gdshader" id="1_e4gnj"]
+[ext_resource type="Texture2D" uid="uid://c7vd6qcbiulg8" path="res://image.jpg" id="1_r2axh"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8sqau"]
+shader = ExtResource("1_e4gnj")
+shader_parameter/size = 200.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jnh7p"]
+shader = ExtResource("1_e4gnj")
+shader_parameter/size = 200.0
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_8sqau")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Image" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_jnh7p")
+position = Vector2(569.444, 330)
+scale = Vector2(0.321351, 0.321351)
+texture = ExtResource("1_r2axh")

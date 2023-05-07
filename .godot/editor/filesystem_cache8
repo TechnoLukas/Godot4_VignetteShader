@@ -1,0 +1,12 @@
+2a60927148abd1d33b818b535e306557
+::res://::1683486944
+icon.svg::CompressedTexture2D::5407333534752839010::1683407044::1683407048::1::::<><>::
+image.jpg::CompressedTexture2D::7062474650747981145::1682191126::1683486650::1::::<><>::
+main.tscn::PackedScene::1577835866186854355::1683486944::0::1::::<><>::res://vignette.gdshader<>uid://c7vd6qcbiulg8
+README.md::TextFile::-1::1683486516::0::1::::<><>::
+vignette.gdshader::Shader::-1::1683486944::0::1::::<><>::
+::res://Screenshots/::1683486957
+Screenshot2.png::CompressedTexture2D::7114368454613536014::1683486929::1683486937::1::::<><>::
+Screenshot.png::CompressedTexture2D::2046766008801762639::1683486724::1683486838::1::::<><>::
+sp1.png::CompressedTexture2D::6198639808927644433::1683486836::1683486838::1::::<><>::
+sp2.png::CompressedTexture2D::7088085661003538776::1683486957::1683487038::1::::<><>::
