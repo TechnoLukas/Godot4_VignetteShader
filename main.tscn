@@ -9,7 +9,7 @@ shader_parameter/size = 200.0
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jnh7p"]
 shader = ExtResource("1_e4gnj")
-shader_parameter/size = 200.0
+shader_parameter/size = 1000.0
 
 [node name="Control" type="Control"]
 layout_mode = 3

@@ -5,7 +5,7 @@
 //on shadertoy https://www.shadertoy.com/view/WsGSD3
 
 shader_type canvas_item;
-uniform float size = 200.0;
+uniform float size;
 
 void fragment() {
 	
